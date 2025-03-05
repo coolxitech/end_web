@@ -21,14 +21,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '18'  # Vite推荐较新版本的Node
           cache: 'npm'
 
       - name: Install Dependencies
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: npm run build  # Vite默认构建命令
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -36,7 +36,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './dist'  # Vite默认输出目录
 
       - name: Deploy to GitHub Pages
         id: deployment
