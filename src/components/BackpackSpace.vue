@@ -146,6 +146,7 @@ export default {
   margin: 1px; /* 让文字距离左上角有一点间距 */
   color: white; /* 白色文字，便于和图片对比 */
   font-size: 9px; /* 设置文字大小 */
+  user-select: none;
 }
 
 

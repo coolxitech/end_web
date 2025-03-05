@@ -7,10 +7,12 @@
           transparent 1px
   ),
   linear-gradient(to bottom, lightgrey 1px, transparent 1px);
-  height: calc(100% - 5px);
-  width: calc(100% - 5px);
+  height: 100%;
+  width: 100%;
   position: absolute;
   background-repeat: repeat;
+  box-sizing: border-box;
+  background-position: -0.5px -0.5px;
 }
 
 body {
