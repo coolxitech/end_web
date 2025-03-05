@@ -1,5 +1,33 @@
-# Vue 3 + Vite
+# Eschatology games - 末世生存游戏前端
+欢迎来到 **Eschatology games**，一个开源的末世生存主题网页游戏！在这个项目中，玩家将置身于一个资源匮乏、危机四伏的世界，挑战生存极限。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 项目简介
+- **主题**: 末世生存
+- **技术栈**: Vue3 + JavaScript
+- **目标**: 打造一个互动性强、可扩展的生存游戏前端，未来可对接后端实现多人模式。
+- **当前状态**: 前端基础框架已搭建，欢迎开发者加入完善游戏机制和UI！
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 快速开始
+1. 克隆项目: `git clone https://github.com/coolxitech/end_web.git`
+2. 安装依赖: `npm install`
+3. 启动开发模式: `npm run dev`
+
+## 如何贡献
+我们欢迎各种形式的贡献！以下是当前需要的方向：
+- **前端**: 完善UI组件、实现游戏核心玩法（如资源系统、地图探索）。
+- **设计**: 提供末世风格的美术资源（图标、背景图等）。
+- **其他**: 后端开发、测试、文档优化。
+
+请直接提交issue/pull request！
+
+## 联系我们
+- GitHub Issues: [提出建议或问题](https://github.com/coolxitech/end_web/issues)
+
+## 路线图
+- [ ] 基础UI完成
+- [ ] 添加生存机制（饥饿、生命值）
+- [ ] 添加资源收集机制(随机物品)
+- [ ] 实现随机事件交互
+- [ ] 支持多人联机
+
+一起打造末世生存的终极体验吧！
