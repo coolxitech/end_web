@@ -16,5 +16,6 @@ export default defineConfig({
             vue: path.resolve('./node_modules/vue'),
             '@': resolve(__dirname, 'src'),
         }
-    }
+    },
+    base: process.env.NODE_ENV === 'production' ? '/end_web/' : '/'
 })
